@@ -1,0 +1,9 @@
+* Slock- HolscherHead's screenlocker
+Pretty self-explanatory
+
+* Install Instructions
+#+BEGIN_SRC bash
+sudo make clean install
+sudo groupadd nogroup
+sudo usermod -aG nogroup yourusername
+#+END
